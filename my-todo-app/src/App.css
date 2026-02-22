@@ -1,0 +1,55 @@
+.divTask{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divTaskP{
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.divTaskP:hover{
+  transform: translateY(-3px);
+}
+
+.divTaskP input{
+  width: 17px;
+  height: 17px;
+  accent-color: #FF7373;
+}
+
+.divTaskP span{
+  cursor: pointer;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+
+@keyframes slideIn{
+  from{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.divTask{
+  animation: slideIn 0.4s ease-out forwards;
+}
+
+.button_icon:active{
+    transform: scale(0.95);
+}

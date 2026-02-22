@@ -1,0 +1,104 @@
+:root {
+    --bg: #FD7279;
+    --color-button: #BF3030;
+}
+
+* {
+    font-family: "Montserrat Alternates", sans-serif;
+
+}
+
+body {
+    background: var(--bg);
+    min-height: 50vh;
+}
+
+main {
+    min-height: auto;
+}
+
+
+.button_icon {
+    border: 1px solid var(--color-button);
+    border-radius: 10px;
+    background: var(--color-button);
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    align-items: center;
+    /*для того чтобы иконка и надпись были на одной оси*/
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.5);
+
+}
+
+.button_icon button {
+    border: none;
+    background: none;
+    height: 40px;
+}
+
+.button_icon_main {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+main input {
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.5);
+    /*стиль для тени*/
+    width: 400px;
+    padding-left: 10px;
+    border: none
+}
+
+.button_icon_main input:focus {
+    outline: none;
+    /*убирает границы на инпуте при клике*/
+}
+
+.button_icon,
+button:hover {
+    cursor: pointer;
+}
+
+main h1 {
+    font-size: 50px;
+    align-self: center;
+
+}
+
+main h1 {
+    text-align: center;
+    /*делает элемент по центру*/
+}
+
+main input,
+button {
+    font-size: 16px;
+}
+
+
+.img {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    width: 30%;
+    height: 30%;
+}
+
+#tasksId {
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.button_icon:active{
+    transform: scale(0.95);
+}
