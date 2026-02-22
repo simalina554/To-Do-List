@@ -21,7 +21,7 @@ function Header({onAddTask, tasksLegth, activeTasks}) {
                         className="material-symbols-outlined">add</span><button>Add</button></div>
                 </div>
                 {tasksLegth === 0 && (
-                <div className="img" id="img"><img src="public/img/selfie_1.png" alt="selfie" />
+                <div className="img" id="img"><img src="./public/img/selfie_1.png" alt="selfie" />
                     <p>Empty as my motivation on Monday 😅.<br />Let’s start adding stuff!</p></div>)}
             </main>
             
