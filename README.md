@@ -11,4 +11,8 @@ This project was created to practice working with React hooks (`useState`, `useE
 * **Data storage:** Integration with `localStorage` allows you to save your task list even after closing the tab.
 * **Interactive interface:** Smooth animations, visual counter for active tasks, and hotkey support (Enter).
 
-**TECHNOLOGIES:** React, TypeScript, Vite, CSS3.
+**TECHNOLOGIES:** React, TypeScript, Vite, CSS3.  
+
+<img width="360" style="padding-top: &nbsp;100" alt="image" src="https://github.com/user-attachments/assets/480195b9-23e3-49d3-b13b-82ab731d3927"/>
+<br>
+LINK: https://to-do-list-pi-ashen.vercel.app/
